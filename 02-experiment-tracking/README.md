@@ -3,11 +3,14 @@
 
 ## 2.0 Lecture notes
 
-### ML flow intro
+### [My note]
 mlflow package: 4 main modules:
-1. Tracking (Keep track of Params, Metrics, Metadata, Artifacts, Models $\rightarrow$ log extra info: src code, version of code (git commit), start/end time, author)
+1. Tracking  (videos 2.1 -> 2.4):
+    * Keep track of Params, Metrics, Metadata, Artifacts, Models $\rightarrow$ log extra info: src code, version of code (git commit), start/end time, author
 1. Models
-1. Model Registry
+1. Model Registry (video 2.5):
+    * Management which models is for each step in production. Eg. model can be in staging/production/archive steps
+    * Vid 2.5: on mlflow ui, each experiment that has artifact logged, there is a model register model, register and create a new model (e.g. nyc-taxi-regressor). If there exists another version model for this, we can register under same model (will appear as version 2)
 1. Projects
 
 ## 2.1 Experiment tracking intro
@@ -45,6 +48,7 @@ Check my file [duration-prediction.ipynb](./duration-prediction.ipynb)
   <img src="images/thumbnail-2-03.jpg">
 </a>
 
+Check my file [duration-prediction.ipynb](./duration-prediction.ipynb)
 
 
 ## 2.4 Model management
@@ -53,6 +57,7 @@ Check my file [duration-prediction.ipynb](./duration-prediction.ipynb)
   <img src="images/thumbnail-2-04.jpg">
 </a>
 
+Check my file [duration-prediction.ipynb](./duration-prediction.ipynb)
 
 
 ## 2.5 Model registry
